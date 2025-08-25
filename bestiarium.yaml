@@ -1,0 +1,223 @@
+creatures:
+  Леший:
+    description: "Гибрид человека и лесного духа, охраняющий древние рощи"
+    dangerLevel: 7
+    areas:
+      - "в чащах Брокилона"
+      - "в чащах Эдингеля"
+    firstMention: "1234-06-21"
+    vulnerability:
+      К магии: false
+      К оглушению: false
+      К ядам: false
+    height: 3
+    weight: 300
+    activityTime: "Ночь"
+    recipe:
+      name: "Яд"
+      ingredients:
+        Корень мандрагоры: 3
+        Пепел драконида: 1
+        Эссенция полыни: 1
+      cookingTime: 60
+      effectiveness: "Умеренная"
+
+  Полуденница:
+    description: "Призрак, терроризирующий поля во время жатвы"
+    dangerLevel: 5
+    areas:
+      - "на полях Редании"
+      - "в амбарах Туссента"
+    firstMention: "1198-07-15"
+    vulnerability:
+      К магии света: true
+      К кровотечению: false
+    height: 170
+    weight: 0
+    activityTime: "День"
+    recipe:
+      name: "Масло"
+      ingredients:
+        Лепестки лунного цветка: 2
+        Серебряная нить: 1
+        Экстракт чеснока: 1
+      cookingTime: 30
+      effectiveness: "Высокая"
+
+  Катакан:
+    description: "Крылатый демон с хвостом скорпиона"
+    dangerLevel: 9
+    areas:
+      - "в горных пещерах Туссента"
+    firstMention: "1150-04-12"
+    vulnerability:
+      К магии огня: false
+      К ядам: false
+    height: 2
+    weight: 200
+    activityTime: "Сумерки"
+    recipe:
+      name: "Масло"
+      ingredients:
+        Жало мантикоры: 4
+        Нефритовая пыль: 2
+        Спирт Альберихта: 1
+      cookingTime: 90
+      effectiveness: "Критическая"
+
+  Кикимора:
+    description: "Болотная нежить из гниющих останков"
+    dangerLevel: 6
+    areas:
+      - "в топях Вендена"
+    firstMention: "1221-09-03"
+    vulnerability:
+      К магии земли: true
+      К удушью: false
+    height: 1
+    weight: 15
+    activityTime: "Ночь"
+    recipe:
+      name: "Масло"
+      ingredients:
+        Грибы-поганки: 5
+        Глаз василиска: 1
+        Роса папоротника: 3
+      cookingTime: 45
+      effectiveness: "Средняя"
+
+  Элементаль льда:
+    description: "Дух вечной зимы"
+    dangerLevel: 10
+    areas:
+      - "в ледниках Ковира"
+    firstMention: "1105-12-01"
+    vulnerability:
+      К заморозке: false
+      К дроблению: false
+      К удушью: false
+    height: 5
+    weight: 10000000
+    activityTime: "Всегда"
+    recipe:
+      name: "Яд"
+      ingredients:
+        Сердце огненного элементаля: 1
+        Сера: 3
+        Расплавленное железо: 1
+      cookingTime: 120
+      effectiveness: "Переменная"
+
+  Пишачи:
+    description: "Получеловек-лошадь"
+    dangerLevel: 8
+    areas:
+      - "в городах"
+      - "в амбарах"
+    firstMention: "1098-04-03"
+    vulnerability:
+      К магии огня: true
+      К ядам: false
+    height: 2.76
+    weight: 130
+    activityTime: "Вечером на закате"
+    recipe:
+      name: "Яд"
+      ingredients:
+        Волчий аконит: 6
+        Вербена: 4
+      cookingTime: 7
+      effectiveness: "Средняя"
+
+  Вампир:
+    description: "Человек, который умер с кровью вампира в организме, питается кровью"
+    dangerLevel: 6
+    areas:
+      - "в городах"
+      - "в деревнях"
+    firstMention: "978-03-29"
+    vulnerability:
+      К вербене: true
+      К огню: true
+      К замедлению: false
+      К контролю разума: true
+      К дереву: true
+    height: 1.7
+    weight: 70
+    activityTime: "Ночью"
+    recipe:
+      name: "Кол"
+      ingredients:
+        Ветка дуба: 1
+        Вербена: 2
+      cookingTime: 40
+      effectiveness: "Высокая"
+
+  Оборотень:
+    description: "Человек-волк, его проклятие врожденное, активируется при убийстве человека"
+    dangerLevel: 8
+    areas:
+      - "в горах"
+      - "в городах"
+    firstMention: "890-03-13"
+    vulnerability:
+      К магии воздуха: true
+      К волчиму акониту: true
+      К магии огня: false
+    height: 2
+    weight: 80
+    activityTime: "Полнолуние"
+    recipe:
+      name: "Яд"
+      ingredients:
+        Аконит: 1
+        Желудок василиска: 1
+        Дерево: 1
+      cookingTime: 10
+      effectiveness: "Высокая"
+
+  Сирена:
+    description: "Женщина, которая привлекает мужчин своим пением, а затем убивает их. Для поддержания своей красоты, она питается мужчинами"
+    dangerLevel: 7
+    areas:
+      - "в морях"
+      - "в пещерах"
+      - "в океанах"
+    firstMention: "709-05-19"
+    vulnerability:
+      К магии огня: true
+      К оглушению: false
+      К кровотечению: false
+      К ядам: false
+    height: 1.5
+    weight: 45
+    activityTime: "Любое время"
+    recipe:
+      name: "Зелье"
+      ingredients:
+        Гриб-дождевик: 2
+        Корень мандрагоры: 3
+      cookingTime: 20
+      effectiveness: "Умеренная"
+
+  Ведьма:
+    description: "Женщина с магическими способностями, в детстве ее забрали воины соседнего королевства за, что она теперь мстит"
+    dangerLevel: 8
+    areas:
+      - "в городах"
+      - "в деревнях"
+    firstMention: "569-09-29"
+    vulnerability:
+      К магии воды: true
+      К магии огня: true
+    height: 1.67
+    weight: 56
+    activityTime: "Любое время"
+    recipe:
+      name: "Яд"
+      ingredients:
+        Полынь: 3
+        Ствол березы: 1
+      cookingTime: 60
+      effectiveness: "Высокая"
+
