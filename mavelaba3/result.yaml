@@ -1,0 +1,206 @@
+creatures:
+  Вампир:
+    dangerLevel: 6
+    recipe:
+      effectiveness: Высокая
+      name: Кол
+      ingredients:
+        Вербена: 2
+        Ветка дуба: 1
+      cookingTime: 40
+    description: Человек, который умер с кровью вампира в организме, питается кровью
+    weight: 70
+    activityTime: Ночью
+    areas:
+    - в городах
+    - в деревнях
+    vulnerability:
+      К дереву: true
+      К замедлению: false
+      К контролю разума: true
+      К вербене: true
+      К огню: true
+    height: 1.7
+  Катакан:
+    dangerLevel: 9
+    recipe:
+      effectiveness: Критическая
+      name: Масло
+      ingredients:
+        Нефритовая пыль: 2
+        Жало мантикоры: 4
+        Спирт Альберихта: 1
+      cookingTime: 90
+    description: Крылатый демон с хвостом скорпиона
+    weight: 200
+    activityTime: Сумерки
+    areas:
+    - в горных пещерах Туссента
+    vulnerability:
+      К магии огня: false
+      К ядам: false
+    height: 2.0
+  Полуденница:
+    dangerLevel: 5
+    recipe:
+      effectiveness: Высокая
+      name: Масло
+      ingredients:
+        Лепестки лунного цветка: 2
+        Экстракт чеснока: 1
+        Серебряная нить: 1
+      cookingTime: 30
+    description: Призрак, терроризирующий поля во время жатвы
+    weight: 0
+    activityTime: День
+    areas:
+    - на полях Редании
+    - в амбарах Туссента
+    vulnerability:
+      К магии света: true
+      К кровотечению: false
+    height: 170.0
+  Ведьма:
+    dangerLevel: 8
+    recipe:
+      effectiveness: Высокая
+      name: Яд
+      ingredients:
+        Полынь: 3
+        Ствол березы: 1
+      cookingTime: 60
+    description: Женщина с магическими способностями, в детстве ее забрали воины соседнего
+      королевства за, что она теперь мстит
+    weight: 56
+    activityTime: Любое время
+    areas:
+    - в городах
+    - в деревнях
+    vulnerability:
+      К магии огня: true
+      К магии воды: true
+    height: 1.67
+  Элементаль льда:
+    dangerLevel: 10
+    recipe:
+      effectiveness: Переменная
+      name: Яд
+      ingredients:
+        Сера: 3
+        Сердце огненного элементаля: 1
+        Расплавленное железо: 1
+      cookingTime: 120
+    description: Дух вечной зимы
+    weight: 10000000
+    activityTime: Всегда
+    areas:
+    - в ледниках Ковира
+    vulnerability:
+      К заморозке: false
+      К удушью: false
+      К дроблению: false
+    height: 5.0
+  Оборотень:
+    dangerLevel: 8
+    recipe:
+      effectiveness: Высокая
+      name: Яд
+      ingredients:
+        Желудок василиска: 1
+        Дерево: 1
+        Аконит: 1
+      cookingTime: 10
+    description: Человек-волк, его проклятие врожденное, активируется при убийстве
+      человека
+    weight: 80
+    activityTime: Полнолуние
+    areas:
+    - в горах
+    - в городах
+    vulnerability:
+      К магии огня: false
+      К магии воздуха: true
+      К волчиму акониту: true
+    height: 2.0
+  Кикимора:
+    dangerLevel: 6
+    recipe:
+      effectiveness: Средняя
+      name: Масло
+      ingredients:
+        Роса папоротника: 3
+        Грибы-поганки: 5
+        Глаз василиска: 1
+      cookingTime: 45
+    description: Болотная нежить из гниющих останков
+    weight: 15
+    activityTime: Ночь
+    areas:
+    - в топях Вендена
+    vulnerability:
+      К удушью: false
+      К магии земли: true
+    height: 1.0
+  Леший:
+    dangerLevel: 7
+    recipe:
+      effectiveness: Умеренная
+      name: Яд
+      ingredients:
+        Пепел драконида: 1
+        Эссенция полыни: 1
+        Корень мандрагоры: 3
+      cookingTime: 60
+    description: Гибрид человека и лесного духа, охраняющий древние рощи
+    weight: 300
+    activityTime: Ночь
+    areas:
+    - в чащах Брокилона
+    - в чащах Эдингеля
+    vulnerability:
+      К магии: false
+      К оглушению: false
+      К ядам: false
+    height: 3.0
+  Сирена:
+    dangerLevel: 7
+    recipe:
+      effectiveness: Умеренная
+      name: Зелье
+      ingredients:
+        Гриб-дождевик: 2
+        Корень мандрагоры: 3
+      cookingTime: 20
+    description: Женщина, которая привлекает мужчин своим пением, а затем убивает
+      их. Для поддержания своей красоты, она питается мужчинами
+    weight: 45
+    activityTime: Любое время
+    areas:
+    - в морях
+    - в пещерах
+    - в океанах
+    vulnerability:
+      К магии огня: true
+      К оглушению: false
+      К кровотечению: false
+      К ядам: false
+    height: 1.5
+  Пишачи:
+    dangerLevel: 8
+    recipe:
+      effectiveness: Средняя
+      name: Яд
+      ingredients:
+        Волчий аконит: 6
+        Вербена: 4
+      cookingTime: 7
+    description: Получеловек-лошадь
+    weight: 130
+    activityTime: Вечером на закате
+    areas:
+    - в городах
+    - в амбарах
+    vulnerability:
+      К магии огня: true
+      К ядам: false
+    height: 2.76
